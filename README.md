@@ -5,8 +5,6 @@ Codes used in MakSci Projects Dump
  - three_led_with_a_potentiometer.ino
  - 
 
-
-
 # group_meralco_pir-sensor.ino
 
 Operating PIR Sensor as Theft Movement Detection
@@ -14,9 +12,10 @@ Operating PIR Sensor as Theft Movement Detection
 
 <p align = "center">
  <img src = "images/pir_sensor_circuit.png" height = 425 weight = 153 />
+ https://www.tinkercad.com/things/dxc4yy8azmD
 </p>
 
-https://www.tinkercad.com/things/dxc4yy8azmD
+
 
 # three_led_with_a_potentiometer.ino
 
