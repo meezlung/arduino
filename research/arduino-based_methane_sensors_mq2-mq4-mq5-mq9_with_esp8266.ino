@@ -148,7 +148,6 @@ void setup() {
 
 void loop() {
 
-  /*
   // Connect or reconnect to WiFi
   if(WiFi.status() != WL_CONNECTED){
     Serial.print("Attempting to connect to SSID: ");
@@ -160,7 +159,7 @@ void loop() {
     } 
     Serial.println("\nConnected.");
   }
-  */
+
   
   /*
     MQ2                           MQ4                                   MQ5                              MQ9
@@ -262,13 +261,12 @@ void loop() {
 
   /**************************** Thingspeak Server ************************************/
 
-  /*
   // set the fields with the values
   ThingSpeak.setField(1, mq2_CH4); 
   ThingSpeak.setField(2, mq4_CH4); 
   ThingSpeak.setField(3, mq9_CH4); 
   ThingSpeak.setField(4, mq5_CH4);
-  
+  //
   int x = ThingSpeak.writeFields(myChannelNumber, myWriteAPIKey);
   if(x == 200){
     Serial.println("Channel update successful.");
@@ -276,7 +274,7 @@ void loop() {
   else{
     Serial.println("Problem updating channel. HTTP error code " + String(x));
   }
-  */
+
 
   delay(10000);
   //delay(8UL * 60 * 60 * 1000); // Wait 20 seconds to update the channel again
