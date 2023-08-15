@@ -17,5 +17,7 @@ Operating PIR Sensor as Theft Movement Detection
 
 Controlling 3 LEDs using 1 Potentiometer
  - Fun side project when I bought Arduino for our research project. This uses leveled digital output of the potentiometer (low, medium, and high) and turns on the LED from left to right or vice versa depending on the value set on the potentiometer.
- - ![image](https://github.com/meezlung/arduino/assets/65329581/585f2fe0-ea48-4c97-8b41-cf5d92de9632)
 
+<p align = "center">
+ <img src = "images/arduino_circuit_potentiometer_three_leds.png" height = 309 weight = 542 />
+</p>
