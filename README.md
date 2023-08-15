@@ -12,6 +12,11 @@ Codes used in MakSci Projects Dump
 Operating PIR Sensor as Theft Movement Detection
  - A simple code we used in Grade 12 Physics that detects movement and includes an alarm system for detection purposes.
 
+<p align = "center">
+ <img src = "images/arduino_circuit_potentiometer_three_leds.png" height = 309 weight = 542 />
+</p>
+
+https://www.tinkercad.com/things/dxc4yy8azmD
 
 # three_led_with_a_potentiometer.ino
 
