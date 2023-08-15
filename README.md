@@ -1,2 +1,3 @@
-# arduino
-arduino code dump used in maksci projects
+# Arduino
+
+Operating PIR Sensor as Theft Movement Detection
