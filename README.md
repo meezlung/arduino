@@ -26,6 +26,7 @@ Controlling 3 LEDs using 1 Potentiometer
 
 <p align = "center">
  <img src = "images/arduino_circuit_potentiometer_three_leds.png" height = 309 weight = 542 />
+ https://www.tinkercad.com/things/dbBClIOAkSH
 </p>
 
 
