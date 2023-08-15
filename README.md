@@ -6,7 +6,7 @@
  - [three_led_with_a_potentiometer.ino](#b-title)
  - [arduino-based_methane_sensors_mq2-mq4-mq5-mq9_with_esp8266.ino](#c-title)
 
-# group_meralco_pir-sensor.ino <a id = "#a-title"/>
+# <h2 id = "#a-title">group_meralco_pir-sensor.ino</h2>
 
 Operating PIR Sensor as Theft Movement Detection
  - A simple code we used in Grade 12 Physics that detects movement and includes an alarm system for detection purposes. The monitoring display is done using an I2C LCD monitor.
@@ -19,7 +19,7 @@ Operating PIR Sensor as Theft Movement Detection
 
 
 
-# three_led_with_a_potentiometer.ino <b id = "#b-title"/>
+# <h2 id = "#b-title">three_led_with_a_potentiometer.ino</h2>
 
 Controlling 3 LEDs using 1 Potentiometer
  - Fun side project when I bought Arduino for our research project. This uses leveled digital output of the potentiometer (low, medium, and high) and turns on the LED from left to right or vice versa depending on the value set on the potentiometer.
