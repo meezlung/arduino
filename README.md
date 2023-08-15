@@ -2,11 +2,11 @@
 
 <h3> Codes used in MakSci Projects Dump </h3>
 
- - group_meralco_pir-sensor.ino
+ - [group_meralco_pir-sensor.ino](#a-title)
  - three_led_with_a_potentiometer.ino
  - arduino-based_methane_sensors_mq2-mq4-mq5-mq9_with_esp8266.ino
 
-# group_meralco_pir-sensor.ino
+# group_meralco_pir-sensor.ino <a href = "#a-title" id = "#a-title"/>
 
 Operating PIR Sensor as Theft Movement Detection
  - A simple code we used in Grade 12 Physics that detects movement and includes an alarm system for detection purposes. The monitoring display is done using an I2C LCD monitor.
