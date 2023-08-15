@@ -3,8 +3,8 @@
 <h3> Codes used in MakSci Projects Dump </h3>
 
  - [group_meralco_pir-sensor.ino](#a-title)
- - three_led_with_a_potentiometer.ino
- - arduino-based_methane_sensors_mq2-mq4-mq5-mq9_with_esp8266.ino
+ - [three_led_with_a_potentiometer.ino](#b-title)
+ - [arduino-based_methane_sensors_mq2-mq4-mq5-mq9_with_esp8266.ino](#c-title)
 
 # group_meralco_pir-sensor.ino <a href = "#a-title" id = "#a-title"/>
 
@@ -19,7 +19,7 @@ Operating PIR Sensor as Theft Movement Detection
 
 
 
-# three_led_with_a_potentiometer.ino
+# three_led_with_a_potentiometer.ino <a href = "#b-title" id = "#b-title"/>
 
 Controlling 3 LEDs using 1 Potentiometer
  - Fun side project when I bought Arduino for our research project. This uses leveled digital output of the potentiometer (low, medium, and high) and turns on the LED from left to right or vice versa depending on the value set on the potentiometer.
@@ -30,7 +30,7 @@ Controlling 3 LEDs using 1 Potentiometer
 
 
 
-# arduino-based_methane_sensors_mq2-mq4-mq5-mq9_with_esp8266.ino
+# arduino-based_methane_sensors_mq2-mq4-mq5-mq9_with_esp8266.ino <a href = "#c-title" id = "#c-title"/>
 
 Using MQ2, MQ4, MQ5, and MQ9 with ESP8266 to send data to Thingspeak Server
  - This is used in our research paper, [Evaluating and Comparing Different Arduino-Based Methane Sensors using Spoiling Onion (Allium cepa L.)]([url](https://docs.google.com/document/d/1bd7KA3-1UeMmHvmkyl4WGBPQK_WAW5VLMbpckR7bOJg/edit)https://docs.google.com/document/d/1bd7KA3-1UeMmHvmkyl4WGBPQK_WAW5VLMbpckR7bOJg/edit), together with [MQSensorsLib]([url](https://github.com/miguel5612/MQSensorsLib)https://github.com/miguel5612/MQSensorsLib) by Urquiza, [WifiEsp]([url](https://github.com/bportaluri/WiFiEsp)https://github.com/bportaluri/WiFiEsp) by Portaluri, and [thingspeak-arduino]([url](https://github.com/mathworks/thingspeak-arduino)https://github.com/mathworks/thingspeak-arduino) by Mathworks. Basically, the paper promotes alternative cost-efficient methane monitoring sensors (MQ2, MQ4, MQ5, and MQ9) for the farmers in the Philippines. The data received from the circuit will be sent to the Thingspeak server using the ESP8266 wifi module.
