@@ -35,6 +35,7 @@ Controlling 3 LEDs using 1 Potentiometer
 
 Using MQ2, MQ4, MQ5, and MQ9 with ESP8266 to send data to Thingspeak Server
  - This is used in our research paper, [Evaluating and Comparing Different Arduino-Based Methane Sensors using Spoiling Onion (Allium cepa L.)]([url](https://docs.google.com/document/d/1bd7KA3-1UeMmHvmkyl4WGBPQK_WAW5VLMbpckR7bOJg/edit)https://docs.google.com/document/d/1bd7KA3-1UeMmHvmkyl4WGBPQK_WAW5VLMbpckR7bOJg/edit), together with [MQSensorsLib]([url](https://github.com/miguel5612/MQSensorsLib)https://github.com/miguel5612/MQSensorsLib) by Urquiza, [WifiEsp]([url](https://github.com/bportaluri/WiFiEsp)https://github.com/bportaluri/WiFiEsp) by Portaluri, and [thingspeak-arduino]([url](https://github.com/mathworks/thingspeak-arduino)https://github.com/mathworks/thingspeak-arduino) by Mathworks. Basically, the paper promotes alternative cost-efficient methane monitoring sensors (MQ2, MQ4, MQ5, and MQ9) for the farmers in the Philippines. The data received from the circuit will be sent to the Thingspeak server using the ESP8266 wifi module.
+ - Use secrets.h for your WiFi and Thingspeak channel credentials.
 
 <p align = "center">
  <img src = "images/research_mq-esp8266_circuit.png" height = 309 weight = 542 />
