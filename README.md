@@ -10,7 +10,7 @@
 
 Operating PIR Sensor as Theft Movement Detection
  - A simple code we used in Grade 12 Physics that detects movement and includes an alarm system for detection purposes. The monitoring display is done using an I2C LCD monitor.
- - Remove the "//" in 'megalovania()' or 'carAlarm()', and add "//" to 'digitalWrite(buzzer, HIGH)' if you want those other sounds to the buzzer. If you want more customized sounds, refer here https://github.com/robsoncouto/arduino-songs and opy paste their commands into a new function.
+ - Remove the "//" in 'megalovania()' or 'carAlarm()', and add "//" to 'digitalWrite(buzzer, HIGH)' if you want those other sounds to the buzzer. If you want more customized sounds, refer here https://github.com/robsoncouto/arduino-songs and copy paste his commands into a new function.
 
 <p align = "center">
  <img src = "images/pir_sensor_circuit.png" height = 425 weight = 153 />
