@@ -14,6 +14,7 @@ Operating PIR Sensor as Theft Movement Detection
 
 <p align = "center">
  <img src = "images/pir_sensor_circuit.png" height = 425 weight = 153 />
+ 
  https://www.tinkercad.com/things/dxc4yy8azmD
 </p>
 
@@ -26,6 +27,7 @@ Controlling 3 LEDs using 1 Potentiometer
 
 <p align = "center">
  <img src = "images/arduino_3led_1poten.png" />
+ 
  https://www.tinkercad.com/things/dbBClIOAkSH
 </p>
 
